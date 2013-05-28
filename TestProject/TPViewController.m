@@ -31,6 +31,15 @@
                                       rect.origin.x, rect.origin.y, rect.size.width, rect.size.height];
 }
 
++ (NSString *)descriptionFromColor:(UIColor *)color {
+    const float*components = CGColorGetComponents( color.CGColor );
+    CGFloat red = components[0];
+    CGFloat green = components[1];
+    CGFloat blue = components[2];
+    CGFloat alpha = components[3];
+    return [NSString stringWithFormat:@"(R: %i, G: %i; B: %i, A:%.1f)",(int)roundf(red * 255), (int)roundf(green * 255), (int)roundf(blue * 255), alpha ];
+}
+
 + (NSString *)descriptionFromBOOL:(BOOL)arg {
     return arg ? @"YES" : @"NO";
 }
@@ -58,7 +67,7 @@
         return [NSString stringWithFormat:@"%d", view.tag];
 
     } else if ([key isEqualToString:@"backgroundColor"]) {
-        return view.backgroundColor.description;
+        return [self descriptionFromColor:view.backgroundColor];
 
     } else {
         return @"";
