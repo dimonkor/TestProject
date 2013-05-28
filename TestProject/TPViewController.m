@@ -27,8 +27,8 @@
 }
 
 + (NSString *)descriptionFromRect:(CGRect)rect {
-    return [NSString stringWithFormat:@"(X: %.1f, Y: %.1f; W: %.1f, H: %.1f)",
-                                      rect.origin.x, rect.origin.y, rect.size.width, rect.size.height];
+    return [NSString stringWithFormat:@"{\"X\":\"%d\",\"Y\":\"%d\",\"W\":\"%d\",\"H\":\"%d\"}",
+                    (int)roundf(rect.origin.x), (int)roundf(rect.origin.y), (int)roundf(rect.size.width), (int)roundf(rect.size.height)];
 }
 
 + (NSString *)descriptionFromColor:(UIColor *)color {
@@ -37,11 +37,12 @@
     CGFloat green = components[1];
     CGFloat blue = components[2];
     CGFloat alpha = components[3];
-    return [NSString stringWithFormat:@"(R: %i, G: %i; B: %i, A:%.1f)",(int)roundf(red * 255), (int)roundf(green * 255), (int)roundf(blue * 255), alpha ];
+    return [NSString stringWithFormat:@"\"%2X%02X%02X%2X\"",
+                    (int)roundf(red * 255), (int)roundf(green * 255), (int)roundf(blue * 255), (int)roundf(255 * alpha)];
 }
 
 + (NSString *)descriptionFromBOOL:(BOOL)arg {
-    return arg ? @"YES" : @"NO";
+    return arg ? @"\"true\"" : @"\"false\"";
 }
 
 + (NSString *)valueForKey:(NSString *)key forView:(UIView *)view {
@@ -55,7 +56,7 @@
         return [self descriptionFromBOOL:view.hidden];
 
     } else if ([key isEqualToString:@"alpha"]) {
-        return [NSString stringWithFormat:@"%.1f", view.alpha];
+        return [NSString stringWithFormat:@"\"%.1f\"", view.alpha];
 
     } else if ([key isEqualToString:@"opaque"]) {
         return [self descriptionFromBOOL:view.opaque];;
@@ -64,7 +65,7 @@
         return [self descriptionFromBOOL:view.clipsToBounds];
 
     } else if ([key isEqualToString:@"tag"]) {
-        return [NSString stringWithFormat:@"%d", view.tag];
+        return [NSString stringWithFormat:@"\"%d\"", view.tag];
 
     } else if ([key isEqualToString:@"backgroundColor"]) {
         return [self descriptionFromColor:view.backgroundColor];
@@ -84,7 +85,7 @@
         if (!value.length)
             continue;
 
-        [string appendFormat:@"\"%@\":\"%@\"", key, value];
+        [string appendFormat:@"\"%@\":%@", key, value];
         if (i != params.count - 1 || view.subviews.count > 0) {
             [string appendString:@","];
         }
