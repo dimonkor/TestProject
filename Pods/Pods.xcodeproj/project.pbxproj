@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B03AB0E0AB24936B0C38617 /* COCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 062471303C2E4A86B90CD39D /* COCommonUtils.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		2F80366B890744018AC80112 /* COMappable.h in Headers */ = {isa = PBXBuildFile; fileRef = 49571A4661854AB6A094C003 /* COMappable.h */; settings = {}; };
+		3F6062CBAFBB49EA8E7E9FF2 /* COEditFieldsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4807CF699FAF4A63ABD381BF /* COEditFieldsView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		44AE5EF08D67481E89ED86A5 /* COKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC462121FA494180AB3B2A /* COKeyboardToolbar.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		5A036AD0FC234AC79B9240CA /* COKeyboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00000117B9BF4FDBAFC48E45 /* COKeyboardController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		5D5C4D8D1AF3458D805CDC8D /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 417119914CB94C5FAEECEF2F /* Pods-dummy.m */; settings = {}; };
+		63FB59AFDFE84EA0B585A2D6 /* COCommonUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 62CA0617A6114DDD94707B69 /* COCommonUtils.h */; settings = {}; };
+		73DDC8858F9049299BC449E3 /* COEditFieldsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02F58CC3436C4B4DA037552F /* COEditFieldsView.h */; settings = {}; };
+		74DDEE56DA5F47F4B53BA70D /* COKeyboardController.h in Headers */ = {isa = PBXBuildFile; fileRef = C861E362252544E3BA00B98B /* COKeyboardController.h */; settings = {}; };
+		7B7FE3B01E7644C98667E2C0 /* COCommonMetrics.h in Headers */ = {isa = PBXBuildFile; fileRef = CE26054121D94D02BE91E249 /* COCommonMetrics.h */; settings = {}; };
+		8BEA094571FF46B9B5066A97 /* NSDate+Coalla.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B50FF47CE9E40FAAD3AE38F /* NSDate+Coalla.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		8BF3A266FBDD44AB91E253BB /* UIView+Coalla.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A5BA24719E40F1A6C1D312 /* UIView+Coalla.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		8EF195D6789D47AD9E9C82B7 /* COUIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F2096F3AFD44C7A72BA1EC /* COUIUtils.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		90AEA0EE46FB4B0BB6BEFA34 /* COUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 3844F99EA2D04409B318AF9E /* COUserDefaults.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		9E68A452238C4C798BBBA9B6 /* UIView+Coalla.h in Headers */ = {isa = PBXBuildFile; fileRef = 44815FDC7D5041E19EBECD6F /* UIView+Coalla.h */; settings = {}; };
+		ADC06BB4255C48E5AEFFD193 /* NSDate+Coalla.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B064DB07D2740CFA236E1D1 /* NSDate+Coalla.h */; settings = {}; };
+		B27D066F2ABF4DAAB2BD085B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F76B8CFD6C4B91B57710DC /* Foundation.framework */; settings = {}; };
+		C671B6FA0507494790728EF0 /* COUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A8BB2B654E64F6D9B1E57E7 /* COUserDefaults.h */; settings = {}; };
+		CF32BBA7081646B3B379FC65 /* COCommonMetrics.m in Sources */ = {isa = PBXBuildFile; fileRef = B59C6828F07D413683384DDF /* COCommonMetrics.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		DB92B15D25874952802CAAEE /* COMappable.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A2A3775724331B832A2CF /* COMappable.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		DC3A337EBCF84AD2874724AE /* COTextUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D5F1B95C169046D3902280E5 /* COTextUtils.h */; settings = {}; };
+		E1088B1DAC1844C38C225E71 /* COUIUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3D423DFD4D42F1AD4F849F /* COUIUtils.h */; settings = {}; };
+		F223BF3A183944B993D2A3F8 /* COKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E15DC89AC041BB9A1FD1F8 /* COKeyboardToolbar.h */; settings = {}; };
+		FB348AAD649E4DBE8054E7CA /* COTextUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D85F04C80694EDC832CA563 /* COTextUtils.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00000117B9BF4FDBAFC48E45 /* COKeyboardController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = COKeyboardController.m; path = CoallaSDK/Coalla/COKeyboardController.m; sourceTree = SOURCE_ROOT; };
+		02F58CC3436C4B4DA037552F /* COEditFieldsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = COEditFieldsView.h; path = CoallaSDK/Coalla/COEditFieldsView.h; sourceTree = SOURCE_ROOT; };
+		062471303C2E4A86B90CD39D /* COCommonUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = COCommonUtils.m; path = CoallaSDK/Coalla/COCommonUtils.m; sourceTree = SOURCE_ROOT; };
+		0A5D8ABB64DF44CB810379B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPods.a; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D85F04C80694EDC832CA563 /* COTextUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = COTextUtils.m; path = CoallaSDK/Coalla/COTextUtils.m; sourceTree = SOURCE_ROOT; };
+		13E15DC89AC041BB9A1FD1F8 /* COKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = COKeyboardToolbar.h; path = CoallaSDK/Coalla/COKeyboardToolbar.h; sourceTree = SOURCE_ROOT; };
+		1900EBD3933E42EE9C2F4BD5 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; name = "Pods-acknowledgements.markdown"; path = "Pods-acknowledgements.markdown"; sourceTree = SOURCE_ROOT; };
+		2B064DB07D2740CFA236E1D1 /* NSDate+Coalla.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Coalla.h"; path = "CoallaSDK/Coalla/NSDate+Coalla.h"; sourceTree = SOURCE_ROOT; };
+		36EC462121FA494180AB3B2A /* COKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = COKeyboardToolbar.m; path = CoallaSDK/Coalla/COKeyboardToolbar.m; sourceTree = SOURCE_ROOT; };
+		3844F99EA2D04409B318AF9E /* COUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = COUserDefaults.m; path = CoallaSDK/Coalla/COUserDefaults.m; sourceTree = SOURCE_ROOT; };
+		417119914CB94C5FAEECEF2F /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-dummy.m"; path = "Pods-dummy.m"; sourceTree = SOURCE_ROOT; };
+		44815FDC7D5041E19EBECD6F /* UIView+Coalla.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Coalla.h"; path = "CoallaSDK/Coalla/UIView+Coalla.h"; sourceTree = SOURCE_ROOT; };
+		4807CF699FAF4A63ABD381BF /* COEditFieldsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = COEditFieldsView.m; path = CoallaSDK/Coalla/COEditFieldsView.m; sourceTree = SOURCE_ROOT; };
+		49571A4661854AB6A094C003 /* COMappable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = COMappable.h; path = CoallaSDK/Coalla/COMappable.h; sourceTree = SOURCE_ROOT; };
+		4B50FF47CE9E40FAAD3AE38F /* NSDate+Coalla.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Coalla.m"; path = "CoallaSDK/Coalla/NSDate+Coalla.m"; sourceTree = SOURCE_ROOT; };
+		52BE00E41CBC4530A80F904C /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-environment.h"; path = "Pods-environment.h"; sourceTree = SOURCE_ROOT; };
+		62CA0617A6114DDD94707B69 /* COCommonUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = COCommonUtils.h; path = CoallaSDK/Coalla/COCommonUtils.h; sourceTree = SOURCE_ROOT; };
+		706A2A3775724331B832A2CF /* COMappable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = COMappable.m; path = CoallaSDK/Coalla/COMappable.m; sourceTree = SOURCE_ROOT; };
+		70A5BA24719E40F1A6C1D312 /* UIView+Coalla.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Coalla.m"; path = "CoallaSDK/Coalla/UIView+Coalla.m"; sourceTree = SOURCE_ROOT; };
+		7A8BB2B654E64F6D9B1E57E7 /* COUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = COUserDefaults.h; path = CoallaSDK/Coalla/COUserDefaults.h; sourceTree = SOURCE_ROOT; };
+		95F76B8CFD6C4B91B57710DC /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9B3D423DFD4D42F1AD4F849F /* COUIUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = COUIUtils.h; path = CoallaSDK/Coalla/COUIUtils.h; sourceTree = SOURCE_ROOT; };
+		AEC18311BF864AC6BA999198 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; name = "Pods-resources.sh"; path = "Pods-resources.sh"; sourceTree = SOURCE_ROOT; };
+		B2A652B332DC42D9A4485A25 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B426A25AD4744030AB58160A /* Pods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; name = "Pods-prefix.pch"; path = "Pods-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		B59C6828F07D413683384DDF /* COCommonMetrics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = COCommonMetrics.m; path = CoallaSDK/Coalla/COCommonMetrics.m; sourceTree = SOURCE_ROOT; };
+		C681B0DFF92C4712AA8F6C93 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		C861E362252544E3BA00B98B /* COKeyboardController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = COKeyboardController.h; path = CoallaSDK/Coalla/COKeyboardController.h; sourceTree = SOURCE_ROOT; };
+		CE26054121D94D02BE91E249 /* COCommonMetrics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = COCommonMetrics.h; path = CoallaSDK/Coalla/COCommonMetrics.h; sourceTree = SOURCE_ROOT; };
+		D5F1B95C169046D3902280E5 /* COTextUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = COTextUtils.h; path = CoallaSDK/Coalla/COTextUtils.h; sourceTree = SOURCE_ROOT; };
+		E2F2096F3AFD44C7A72BA1EC /* COUIUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = COUIUtils.m; path = CoallaSDK/Coalla/COUIUtils.m; sourceTree = SOURCE_ROOT; };
+		E314B0E9C19C455A9BB4ECEF /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; name = "Pods-acknowledgements.plist"; path = "Pods-acknowledgements.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB4C5EBB3A13440E8306F06F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27D066F2ABF4DAAB2BD085B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		454B871035504BA8B4B8B6B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A5D8ABB64DF44CB810379B0 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50EA1F4A450D41389DFDC511 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C681B0DFF92C4712AA8F6C93 /* Pods.xcconfig */,
+				52BE00E41CBC4530A80F904C /* Pods-environment.h */,
+				B426A25AD4744030AB58160A /* Pods-prefix.pch */,
+				AEC18311BF864AC6BA999198 /* Pods-resources.sh */,
+				E314B0E9C19C455A9BB4ECEF /* Pods-acknowledgements.plist */,
+				1900EBD3933E42EE9C2F4BD5 /* Pods-acknowledgements.markdown */,
+				417119914CB94C5FAEECEF2F /* Pods-dummy.m */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C409BA0AED04B1C9C6D8C76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95F76B8CFD6C4B91B57710DC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA1F780A494B4A309D37F515 = {
+			isa = PBXGroup;
+			children = (
+				7C409BA0AED04B1C9C6D8C76 /* Frameworks */,
+				F87DD9A17D9F4CE9BEDD0EC7 /* Pods */,
+				454B871035504BA8B4B8B6B7 /* Products */,
+				FFD5271813C84BB29D4007A2 /* Targets Support Files */,
+				B2A652B332DC42D9A4485A25 /* Podfile */,
+			);
+			sourceTree = "<group>";
+		};
+		EE2955F7D64C4F379BECA557 /* CoallaSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CE26054121D94D02BE91E249 /* COCommonMetrics.h */,
+				B59C6828F07D413683384DDF /* COCommonMetrics.m */,
+				62CA0617A6114DDD94707B69 /* COCommonUtils.h */,
+				062471303C2E4A86B90CD39D /* COCommonUtils.m */,
+				02F58CC3436C4B4DA037552F /* COEditFieldsView.h */,
+				4807CF699FAF4A63ABD381BF /* COEditFieldsView.m */,
+				C861E362252544E3BA00B98B /* COKeyboardController.h */,
+				00000117B9BF4FDBAFC48E45 /* COKeyboardController.m */,
+				13E15DC89AC041BB9A1FD1F8 /* COKeyboardToolbar.h */,
+				36EC462121FA494180AB3B2A /* COKeyboardToolbar.m */,
+				49571A4661854AB6A094C003 /* COMappable.h */,
+				706A2A3775724331B832A2CF /* COMappable.m */,
+				D5F1B95C169046D3902280E5 /* COTextUtils.h */,
+				0D85F04C80694EDC832CA563 /* COTextUtils.m */,
+				9B3D423DFD4D42F1AD4F849F /* COUIUtils.h */,
+				E2F2096F3AFD44C7A72BA1EC /* COUIUtils.m */,
+				7A8BB2B654E64F6D9B1E57E7 /* COUserDefaults.h */,
+				3844F99EA2D04409B318AF9E /* COUserDefaults.m */,
+				2B064DB07D2740CFA236E1D1 /* NSDate+Coalla.h */,
+				4B50FF47CE9E40FAAD3AE38F /* NSDate+Coalla.m */,
+				44815FDC7D5041E19EBECD6F /* UIView+Coalla.h */,
+				70A5BA24719E40F1A6C1D312 /* UIView+Coalla.m */,
+			);
+			name = CoallaSDK;
+			sourceTree = "<group>";
+		};
+		F87DD9A17D9F4CE9BEDD0EC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE2955F7D64C4F379BECA557 /* CoallaSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FFD5271813C84BB29D4007A2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50EA1F4A450D41389DFDC511 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B8BCC27347E34B2F9D17051A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B7FE3B01E7644C98667E2C0 /* COCommonMetrics.h in Headers */,
+				63FB59AFDFE84EA0B585A2D6 /* COCommonUtils.h in Headers */,
+				73DDC8858F9049299BC449E3 /* COEditFieldsView.h in Headers */,
+				74DDEE56DA5F47F4B53BA70D /* COKeyboardController.h in Headers */,
+				F223BF3A183944B993D2A3F8 /* COKeyboardToolbar.h in Headers */,
+				2F80366B890744018AC80112 /* COMappable.h in Headers */,
+				DC3A337EBCF84AD2874724AE /* COTextUtils.h in Headers */,
+				E1088B1DAC1844C38C225E71 /* COUIUtils.h in Headers */,
+				C671B6FA0507494790728EF0 /* COUserDefaults.h in Headers */,
+				ADC06BB4255C48E5AEFFD193 /* NSDate+Coalla.h in Headers */,
+				9E68A452238C4C798BBBA9B6 /* UIView+Coalla.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DF90E10FE194C8BB5A6CA9F /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1BFD7D0E6E4FBEB9F37B16 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				71F6CCA26773494889D91A11 /* Sources */,
+				AB4C5EBB3A13440E8306F06F /* Frameworks */,
+				B8BCC27347E34B2F9D17051A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 0A5D8ABB64DF44CB810379B0 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83F1B6768D5F4356AAC195CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 2F73CC0C4B8F4C2290943012 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA1F780A494B4A309D37F515;
+			productRefGroup = 454B871035504BA8B4B8B6B7 /* Products */;
+			projectReferences = (
+			);
+			targets = (
+				0DF90E10FE194C8BB5A6CA9F /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71F6CCA26773494889D91A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF32BBA7081646B3B379FC65 /* COCommonMetrics.m in Sources */,
+				0B03AB0E0AB24936B0C38617 /* COCommonUtils.m in Sources */,
+				3F6062CBAFBB49EA8E7E9FF2 /* COEditFieldsView.m in Sources */,
+				5A036AD0FC234AC79B9240CA /* COKeyboardController.m in Sources */,
+				44AE5EF08D67481E89ED86A5 /* COKeyboardToolbar.m in Sources */,
+				DB92B15D25874952802CAAEE /* COMappable.m in Sources */,
+				FB348AAD649E4DBE8054E7CA /* COTextUtils.m in Sources */,
+				8EF195D6789D47AD9E9C82B7 /* COUIUtils.m in Sources */,
+				90AEA0EE46FB4B0BB6BEFA34 /* COUserDefaults.m in Sources */,
+				8BEA094571FF46B9B5066A97 /* NSDate+Coalla.m in Sources */,
+				8BF3A266FBDD44AB91E253BB /* UIView+Coalla.m in Sources */,
+				5D5C4D8D1AF3458D805CDC8D /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		67109459062542079442A705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C681B0DFF92C4712AA8F6C93 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A256C9FECACE435B931AD771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C681B0DFF92C4712AA8F6C93 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AB1C798B8F074AC180ABC415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		DA2F5089A029445692EA0D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F73CC0C4B8F4C2290943012 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1C798B8F074AC180ABC415 /* Release */,
+				DA2F5089A029445692EA0D13 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1BFD7D0E6E4FBEB9F37B16 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67109459062542079442A705 /* Release */,
+				A256C9FECACE435B931AD771 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83F1B6768D5F4356AAC195CC /* Project object */;
+}

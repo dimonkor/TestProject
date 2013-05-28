@@ -1,0 +1,1 @@
+../../CoallaSDK/Coalla/COMappable.h

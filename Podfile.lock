@@ -1,0 +1,14 @@
+PODS:
+  - CoallaSDK (1.0)
+
+DEPENDENCIES:
+  - CoallaSDK (from `git@coalla.ru:coalla_iphone`)
+
+EXTERNAL SOURCES:
+  CoallaSDK:
+    :git: git@coalla.ru:coalla_iphone
+
+SPEC CHECKSUMS:
+  CoallaSDK: 39fc1ce298da30b3dec6d429e304e93120db82c1
+
+COCOAPODS: 0.20.1
